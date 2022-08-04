@@ -13,5 +13,6 @@ driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install())
   
 driver.get('https://sssinstagram.com/')
 driver.save_screenshot('screenshot.png')
+print('I am executed automatically...')
 
 driver.quit()
